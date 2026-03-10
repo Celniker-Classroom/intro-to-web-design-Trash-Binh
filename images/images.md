@@ -38,7 +38,6 @@ Avoid including non-image files (e.g., PDFs, Word docs, ZIPs) in this folder.
 - Keep filenames short but meaningful.
 - Do not include punctuation or special characters.
 
----
 
 ## 🧩 Referencing Images in HTML
 
