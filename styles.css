@@ -9,29 +9,32 @@ body{
 
 h1{
     background-color: #ff6a83;
-    width: 300 px;
+    width: 500 px;
     length: 300 px;
     margin: 0 auto;
     padding: 30 px;
     border-left: 3px double white;
     border-right: 3px double white;
+    outline: #ff6a83 dotted 3px;
 }
 
 h2{
     background-color: #ff6a83;
-    width: 800 px;
+    width: 500 px;
     length: 300 px;
     margin: 0 auto;
     padding: 30 px;
     border-left: 3px double white;
     border-right: 3px double white;
+    outline: #ff6a83 dotted 3px;
 }
 
 #sidebar{
     background-color: hsl(350, 90%, 81%);
     border: 3px solid ;
-    width: 235px;
-    length: 235px;
+    width: 500x;
+    length: 500px;
     border-radius:20 px;
     margin: 0 auto;
+    outline: #ff6a83 dotted 3px;
 }
