@@ -1,6 +1,6 @@
 body{
-    background-color:aliceblue;
-    color: white;
+    background-color:rgb(255, 228, 236);
+    color: #ff8aa7;
     font-family:'Courier New', Courier, monospace;
     margin: 0;
 }
@@ -8,10 +8,20 @@ body{
 
 
 h1{
-    background-color: hotpink;
+    background-color: #ff6a83;
     width: 800 px;
     margin: 0 auto;
     padding: 30 px;
     border-left: 3px double white;
     border-right: 3px double white;
 }
+
+h1{
+    background-color: #ff6a83;
+    width: 800 px;
+    margin: 0 auto;
+    padding: 30 px;
+    border-left: 3px double white;
+    border-right: 3px double white;
+}
+
