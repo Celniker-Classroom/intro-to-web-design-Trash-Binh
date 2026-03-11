@@ -6,7 +6,6 @@ The **HTML/CSS Personal Website Project** demonstrates your ability to build a s
 You will create a personal web page that reflects your creativity while showcasing front-end design skills such as layout organization, typography, responsive design, and proper file management.
 
 ---
-
 ## 🧱 Requirements
 
 ### 🧩 Content
