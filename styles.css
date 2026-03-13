@@ -2,7 +2,7 @@ body{
     background-color:rgb(255, 242, 215);
     color: #ff8cb8;
     font-family:'Courier New', Courier, monospace;
-    margin: 0;
+    margin: 0 px;
     flex: auto;
 }
 
@@ -25,7 +25,7 @@ h2{
     padding: 30 px;
     border-left: 3px double white;
     border-right: 3px double white;
-    outline: hsl(332, 100%, 89%) dotted 3px;
+    outline: hsl(199, 100%, 78%) dotted 3px;
 }
 h3{
     font-weight: 800;
@@ -33,33 +33,32 @@ h3{
 }
 
 #container{
-    background-color: hsl(276, 100%, 98%);
     border: 3px dotted ;
-    width: 1000px;
-    height: 400px;
+    width: 90%;
+    height: 250 px;
     border-radius:20 px;
-    margin: 0 auto;
-    padding: 30 p
-    outline: hsl(332, 100%, 89%) 3px;
+    justify-content: center;
+    align-items: end;
+
 }
 
 img{
     float: left;
-    width: 20%;
-    height: auto;
-    padding: 100 px;
-    display: block;
+    width: 25%;
+    height: 20%;
+    object-fit: cover;
+    margin: 100 px;
+    max-width: max-content;
 }
+
 
 #sidebar{
     background-color: hsl(97, 100%, 95%);
     border: 3px dotted ;
     width: 300px;
-    height: 1000px;
-    border-radius:20 px;
-    margin-left: 0%;
-   flex: auto;
-    
+    height: auto;
+    border:20 px;
+    float: left;
     outline: hsl(332, 100%, 89%) 3px;
 }
 
