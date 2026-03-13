@@ -38,6 +38,7 @@ h2{
 }
 
 img{
-    width: 50%;
+    float: left;
+    width: 20%;
     height: auto;
 }
