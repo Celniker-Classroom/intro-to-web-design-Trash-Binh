@@ -2,14 +2,15 @@ body{
     background-color:rgb(255, 242, 215);
     color: #ff8cb8;
     font-family:'Courier New', Courier, monospace;
-    margin: 0 px;
+    margin: 40 px;
     flex: auto;
+    float: right;
 }
 
 h1{
     background-color: #ffebf6;
-    width: 500 px;
-    height: 300 px;
+    width:90% px;
+    height: auto;
     margin: 0 auto;
     padding: 30 px;
     border-left: 3px double white;
@@ -19,8 +20,8 @@ h1{
 
 h2{
     background-color: hsl(199, 100%, 84%);
-    width: 500 px;
-    height: 300 px;
+    width: 90% px;
+    height: auto;
     margin: 0 auto;
     padding: 30 px;
     border-left: 3px double white;
@@ -32,23 +33,23 @@ h3{
     accent-color: dark plum;
 }
 
-#container{
+#subcontain{
     border: 3px dotted ;
     width: 90%;
-    height: 250 px;
-    border-radius:20 px;
-    justify-content: center;
+    height:1000 px;
+    gap: 20 px;
+    justify-content: space-between;
     align-items: end;
+    padding:0%;
+    object-fit:cover;
+    overflow:hidden;
 
 }
 
 img{
     float: left;
-    width: 25%;
-    height: 20%;
-    object-fit: cover;
-    margin: 100 px;
-    max-width: max-content;
+    max-width: 100%;
+    height: auto;
 }
 
 
