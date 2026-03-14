@@ -7,6 +7,13 @@ body{
     float: right;
 }
 
+.important{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: hsl(199, 100%, 78%);
+}
+
+
 h1{
     background-color: #ffebf6;
     width:90% px;
@@ -34,21 +41,23 @@ h3{
 }
 
 #subcontain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 3px dotted ;
-    width: 90%;
-    height:1000 px;
+    width: 100%;
+    height:auto ;
     gap: 20 px;
-    justify-content: space-between;
-    align-items: end;
     padding:0%;
     object-fit:cover;
     overflow:hidden;
+
 
 }
 
 img{
     float: left;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
 }
 
@@ -68,8 +77,8 @@ a:link{
     color:hsl(135, 71%, 77%);
 
 }
-a:visted{
-    color: #ff8cb8;
+a:visited{
+    color: #e3a3e7;
     background-color: hsl(199, 100%, 84%);
 }
 
