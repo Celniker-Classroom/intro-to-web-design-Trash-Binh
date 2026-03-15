@@ -42,38 +42,39 @@ h3{
     accent-color: dark plum;
 }
 
-#subcontain{
+#maincontain{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 3px dotted ;
     width: 100%;
     height:auto ;
-    gap: 20 px;
-    padding:0%;
+    gap: 20px;
+    padding: 20px;
     object-fit:cover;
     overflow:hidden;
     line-height: 1.5;
+}
 
+#factcontain{
+    display: block;
+    border: 3px dotted ;
+    width: 100%;
+    height:auto ;
+    outline: whitesmoke;
+    padding:10px;
+    object-fit:cover;
+    overflow:hidden;
+    line-height: 1.5;
 
 }
 
 img{
     float: left;
-    max-width: 20%;
+    max-width: 100%;
     height: auto;
 }
 
-
-#sidebar{
-    background-color: hsl(97, 100%, 95%);
-    border: 3px dotted ;
-    width: 300px;
-    height: auto;
-    border:20 px;
-    float: left;
-    outline: hsl(332, 100%, 89%) 3px;
-}
 
 a:link{
     font-weight: bold;
