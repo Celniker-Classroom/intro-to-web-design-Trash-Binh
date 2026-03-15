@@ -5,6 +5,7 @@ body{
     margin: 40 px;
     flex: auto;
     float: right;
+
 }
 
 .important{
@@ -52,6 +53,7 @@ h3{
     padding:0%;
     object-fit:cover;
     overflow:hidden;
+    line-height: 1.5;
 
 
 }
