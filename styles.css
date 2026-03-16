@@ -1,6 +1,6 @@
 body{
-    background-color:rgb(255, 242, 215);
-    color: #ff8cb8;
+    background-color: rgb(255, 235, 196);
+    color: rgb(255, 217, 142);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 40px;
     flex: auto;
@@ -11,11 +11,12 @@ body{
 .important{
     font-weight: bolder;
     text-decoration: underline;
-    color: hsl(199, 80%, 68%);
+    color: #ff8cb8;;
 }
 
 
 h1{
+    display: flex;
     background-color: #ffebf6;
     width:90%;
     height: auto;
@@ -24,9 +25,11 @@ h1{
     border-left: 3px double white;
     border-right: 3px double white;
     outline: hsl(332, 100%, 89%) dotted 3px;
+    color: #ff8cb8;
 }
 
  h2{
+    display: flex;
     background-color: hsl(199, 100%, 84%);
     width: 90%;
     height: auto;
@@ -37,10 +40,7 @@ h1{
     color: hsl(199, 80%, 68%);
     outline: hsl(199, 100%, 78%) dotted 3px;
 }
-h3{
-    font-weight: 800;
-    accent-color: dark plum;
-}
+
 
 #maincontain{
     display: flex;
@@ -55,6 +55,7 @@ h3{
     object-fit:cover;
     overflow:hidden;
     line-height: 1.5;
+    background-color: rgb(255, 242, 215);
 }
 
 #factcontain{
@@ -62,7 +63,7 @@ h3{
     border: 3px dotted ;
     width: 100%;
     height:auto ;
-    background-color: whitesmoke;
+    background-color:rgb(255, 255, 255);
     padding:10px;
     object-fit:cover;
     overflow:hidden;
@@ -79,7 +80,7 @@ img{
 
 a:link{
     font-weight: bold;
-    color:hsl(135, 71%, 77%);
+    color:hsl(293, 100%, 77%);
 
 }
 a:visited{
@@ -98,32 +99,71 @@ a:active{
     font-weight: bolder;
 }
 
-@media (min-width: 1200px){
-.h1 {grid-area: 1 / span 6;}
-.h2 {grid-area: 1 / span 6;}
-#subcontain{
-    width: 70%;
+@media (max-width: 1200px){
+.h1{
+    width:70%;
+    height:auto;
+    font-size: medium;
+}
+
+.h2{
+    width:70%;
+    height:auto;
+    font-size: medium;
+}
+
+
+#maincontain{
+ width: 80%;
+ height: auto;
+ font-size:medium;
+background-color:violet;
+}
+}
+
+@media (max-width: 992px){
+.h1{
+    width:60%;
+    height:auto;
+    font-size: medium;
+}
+
+.h2{
+    width:60%;
+    height:auto;
+    font-size: medium;
+}
+
+
+#maincontain{
+ width: 70%;
+ height: auto;
+ font-size:small;
+background-color:rgb(255, 183, 59);
+}
 } 
+
+
+@media (max-width: 768px){
+.h1{
+    width:50%;
+    height:auto;
+    font-size: medium;
 }
 
-@media (min-width: 992px){
-.h1 {grid-area: 1 / span 4;}
-.h2 {grid-area: 1 / span 4;}
-#subcontain{
-    width: 90%;
+.h2{
+    width:50%;
+    height:auto;
+    font-size: medium;
+}
+
+
+#maincontain{
+ width: 60%;
+ height: auto;
+ font-size:smaller;
+background-color:rgb(5, 255, 222);
+}
+
 } 
-}
 
-@media (min-width: 768px){
-.h1 {grid-area: 1 / span 6;}
-.h2 {grid-area: 1 / span 6;}
-
-#factcontain{
-    width: 100%;
-} 
-
-
-.img{
-    float: none;
-}
-}
