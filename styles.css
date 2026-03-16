@@ -146,14 +146,14 @@ background-color:violet;
 @media (max-width: 992px){
 .h1{
     display: flex;
-    width:100%;
+    width:70%;
     height:auto;
     font-size: medium;
 }
 
 .h2{
     display: flex;
-    width:100%;
+    width:70%;
     height:auto;
     font-size: medium;
 }
@@ -179,14 +179,14 @@ background-color:rgb(255, 183, 59);
 @media (max-width: 768px){
 .h1{
     display: flex;
-    width:50%;
+    width:70%;
     height:auto;
     font-size: medium;
 }
 
 .h2{
     display: flex;
-    width:50%;
+    width:70%;
     height:auto;
     font-size: medium;
 }
