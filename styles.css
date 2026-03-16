@@ -61,7 +61,7 @@ h3{
     border: 3px dotted ;
     width: 100%;
     height:auto ;
-    outline: whitesmoke;
+    background-color: whitesmoke;
     padding:10px;
     object-fit:cover;
     overflow:hidden;
@@ -97,14 +97,15 @@ a:active{
     font-weight: bolder;
 }
 
-@media (min-width: 1200px){
+@media all and (min-width: 1200px){
 .h1 {grid-area: 1 / span 6;}
 .h2 {grid-area: 1 / span 6;}
 #subcontain{
     width: 80%;
 } 
 }
-@media (min-width: 992px){
+
+@media all and (min-width: 992px){
 .h1 {grid-area: 1 / span 4;}
 .h2 {grid-area: 1 / span 4;}
 #subcontain{
@@ -112,9 +113,10 @@ a:active{
 } 
 }
 
-@media (min-width: 768px){
+@media all and (min-width: 768px){
 .h1 {grid-area: 1 / span 6;}
 .h2 {grid-area: 1 / span 6;}
+.body{
 #subcontain{
     width: 100%;
 } 
