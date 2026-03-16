@@ -101,7 +101,7 @@ a:active{
 .h1 {grid-area: 1 / span 6;}
 .h2 {grid-area: 1 / span 6;}
 #subcontain{
-    width: 80%;
+    width: 70%;
 } 
 }
 
@@ -116,11 +116,13 @@ a:active{
 @media all and (min-width: 768px){
 .h1 {grid-area: 1 / span 6;}
 .h2 {grid-area: 1 / span 6;}
-.body{
+
 #subcontain{
     width: 100%;
 } 
-img {
+
+
+.img{
     float: none;
 }
 }
