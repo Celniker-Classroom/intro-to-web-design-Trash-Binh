@@ -60,7 +60,7 @@ h1{
     align-items: center;
     overflow: scroll;
     border: 3px dotted ;
-    width: 75%;
+    width: 94%;
     height:auto ;
     gap: 30px;
     margin: 0 auto;
@@ -127,7 +127,7 @@ a:active{
 
 
 #maincontain{
-width: 95%;
+width: 94%;
  height: auto;
 font-size:medium;
 background-color:violet;
@@ -161,7 +161,7 @@ background-color:violet;
 
 #maincontain{
 display:flex;
-width: 95%;
+width: 94%;
 height: auto;
 background-color:rgb(255, 183, 59);
 }
@@ -193,7 +193,7 @@ background-color:rgb(255, 183, 59);
 
 
 #maincontain{
-width: 95%;
+width: 97%;
  height: auto;
  font-size:smaller;
 background-color:rgb(5, 255, 222);
