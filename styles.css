@@ -5,7 +5,7 @@ body{
     margin: 40px;
     flex: auto;
     float: right;
-
+    overflow-y: scroll;
 }
 
 .important{
@@ -64,7 +64,7 @@ h1{
     justify-content: center;
     place-items: center;
     align-items: center;
-    overflow: scroll;
+    
     border: 3px dotted ;
     width: 94%;
     height:auto ;
@@ -185,7 +185,7 @@ background-color:rgb(255, 183, 59);
  height: auto;
  font-size:small;
 
- #titlecontain{
+#titlecontain{
     font-size: small;
 }
 }
