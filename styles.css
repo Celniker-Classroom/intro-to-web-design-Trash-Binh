@@ -149,6 +149,9 @@ background-color:violet;
  height: auto;
  font-size:medium;
 }
+#titlecontain{
+    font-size: medium;
+}
 
 }
 
@@ -182,6 +185,9 @@ background-color:rgb(255, 183, 59);
  height: auto;
  font-size:small;
 
+ #titlecontain{
+    font-size: small;
+}
 }
 
 } 
@@ -214,6 +220,10 @@ background-color:rgb(5, 255, 222);
  width: 60%;
  height: auto;
  font-size:smaller;
+}
+
+#titlecontain{
+    font-size:smaller
 }
 } 
 
