@@ -11,7 +11,7 @@ body{
 .important{
     font-weight: bolder;
     text-decoration: underline;
-    color: #ff8cb8;;
+    color: #ff8cb8;
 }
 
 
@@ -49,8 +49,14 @@ h1{
     overflow:hidden;
 }
 
+ h3{
+    color: rgb(138, 202, 255);
+}
+
 #titlecontain{
-    display: flex;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 #maincontain{
@@ -68,22 +74,27 @@ h1{
     object-fit:cover;
     line-height: 1.5;
     background-color: rgb(255, 242, 215);
-}
+    }
+
 
 #factcontain{
     display: block;
-    border: 3px dotted ;
+    border: 3px dotted rgb(255, 217, 142) ;
     width: 100%;
     height:auto ;
+    overflow: auto;
     background-color:rgb(255, 255, 255);
     padding:10px;
     object-fit:cover;
     line-height: 1.5;
-
+    color: #ff8cb8;
+    text-align: center;
+    font-size: large;
+ 
 }
 
 img{
-    float: left;
+    float: center;
     max-width: 100%;
     height: auto;
 }
@@ -95,8 +106,8 @@ a:link{
 
 }
 a:visited{
-    color: #e3a3e7;
-    background-color: hsl(199, 100%, 84%);
+    color: #a8e3ff;
+    background-color: hsl(0, 0%, 100%);
 }
 
 a:hover{
