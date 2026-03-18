@@ -1,7 +1,11 @@
+p{
+ font-family: "Gaegu", sans-serif;
+}
+
 body{
     background-color: rgb(255, 235, 196);
-    color: rgb(255, 217, 142);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 203, 100);
+    font-family: "Josefin Sans", sans-serif;
     margin: 40px;
     flex: auto;
     float: right;
@@ -79,7 +83,7 @@ h1{
 
 #factcontain{
     display: block;
-    border: 3px dotted rgb(255, 217, 142) ;
+    border: 3px dotted rgb(255, 203, 100) ;
     width: 100%;
     height:auto ;
     overflow:hidden;
