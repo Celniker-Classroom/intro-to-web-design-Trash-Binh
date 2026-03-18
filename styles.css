@@ -82,7 +82,7 @@ h1{
     border: 3px dotted rgb(255, 217, 142) ;
     width: 100%;
     height:auto ;
-    overflow: auto;
+    overflow:hidden;
     background-color:rgb(255, 255, 255);
     padding:10px;
     object-fit:cover;
@@ -172,6 +172,9 @@ background-color:violet;
     font-size: medium;
 }
 
+.h3{
+    font-size: large;
+}
 
 #maincontain{
 display:flex;
@@ -181,14 +184,12 @@ background-color:rgb(255, 183, 59);
 }
 
 #factcontain{
- width: 70%;
+ width: 500%;
  height: auto;
  font-size:small;
+}
 
-#titlecontain{
-    font-size: small;
-}
-}
+
 
 } 
 
@@ -208,16 +209,19 @@ background-color:rgb(255, 183, 59);
     font-size: medium;
 }
 
+.h3{
+    font-size: larger;
+}
 
 #maincontain{
 width: 97%;
  height: auto;
- font-size:smaller;
+ font-size: small;
 background-color:rgb(5, 255, 222);
 }
 
 #factcontain{
- width: 60%;
+ width: 1000%;
  height: auto;
  font-size:smaller;
 }
