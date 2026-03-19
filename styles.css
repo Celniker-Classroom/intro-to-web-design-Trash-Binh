@@ -28,7 +28,7 @@ h1{
     flex: row;
     background-color: #ffebf6;
     background-image: linear-gradient(#ffebf6,#ffd6ef);
-    width:90%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
     padding: 30px;
@@ -52,7 +52,7 @@ h1{
     padding: 30px;
     border-left: 3px double white;
     border-right: 3px double white;
-    color: hsl(199, 80%, 68%);
+    color: #3dc2ff;;
     outline: hsl(199, 100%, 78%) dotted 3px;
     overflow:hidden;
 }
@@ -74,7 +74,7 @@ h1{
     align-items: center;
     
     border: 3px dotted ;
-    width: 94%;
+    width: 92%;
     height:auto ;
     gap: 30px;
     margin: 0 auto;
@@ -87,7 +87,9 @@ h1{
 
 
 #factcontain{
-    
+    box-shadow: 
+    10px 3px rgb(255, 235, 196),
+    20px 10px #ff8cb8;
     display: block;
     border: 3px dotted hsl(199, 80%, 68%) ;
     width: 100%;
@@ -118,7 +120,7 @@ a:link{
 
 }
 a:visited{
-    color: #71d2ff;
+    color: #3dc2ff;
     background-color: hsl(0, 0%, 100%);
 }
 
