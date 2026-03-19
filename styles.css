@@ -52,7 +52,7 @@ h1{
     padding: 30px;
     border-left: 3px double white;
     border-right: 3px double white;
-    color: #3dc2ff;;
+    color: #23b9ff;;
     outline: hsl(199, 100%, 78%) dotted 3px;
     overflow:hidden;
 }
@@ -95,12 +95,12 @@ h1{
     width: 100%;
     height:auto ;
     overflow: hidden;
-    background-color:hsl(332, 100%, 89%);
-    background-image: linear-gradient(hsl(199, 100%, 84%),hsl(199, 100%, 95%) );
+    color: #23b9ff;
+    background-color:hsl(200, 100%, 89%);
+    background-image: linear-gradient(hsl(200, 100%, 89%), hsl(199, 100%, 79%));
     padding:10px;
     object-fit:cover;
     line-height: 1.5;
-    color: #ff8cb8;
     text-align: center;
     font-size: large;
    ;
