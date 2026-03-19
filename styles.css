@@ -48,7 +48,7 @@ h1{
     background-image: linear-gradient(hsl(200, 100%, 89%), hsl(199, 100%, 79%));
     width: 90%;
     height: auto;
-    margin: 0 auto;
+    margin:  0 auto;
     padding: 30px;
     border-left: 3px double white;
     border-right: 3px double white;
@@ -59,20 +59,24 @@ h1{
 
  h3{
     color: #ff8cb8;
-}
-
-#titlecontain{
-    display: block;
-    width: 100%;
+    font-size: x-large;
+    font-weight: 1000;
+    background-color: #ffebf6;
+    background-image: linear-gradient(#ffebf6,#ffd6ef);
+    outline: hsl(332, 100%, 89%) dotted 3px;
+    width: 50%;
     height: auto;
-}
+ }
+
 
 #maincontain{
     display: flex;
+    flex-direction: column;
+     text-align: center;
     justify-content: center;
     place-items: center;
     align-items: center;
-    
+ 
     border: 3px dotted ;
     width: 92%;
     height:auto ;
@@ -92,13 +96,14 @@ h1{
     20px 10px #ff8cb8;
     display: block;
     border: 3px dotted hsl(199, 80%, 68%) ;
-    width: 100%;
+    width: 70%;
     height:auto ;
     overflow: hidden;
     color: #23b9ff;
     background-color:hsl(200, 100%, 89%);
     background-image: linear-gradient(hsl(200, 100%, 89%), hsl(199, 100%, 79%));
     padding:10px;
+    margin: 30px;
     object-fit:cover;
     line-height: 1.5;
     text-align: center;
@@ -109,7 +114,7 @@ h1{
 
 img{
     float: center;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -152,13 +157,12 @@ h2{
 
 
 #maincontain{
-
 font-size:medium;
-background-color:violet;
+;
 }
 
 #factcontain{
- width: 250%;
+ width: 45%;
  height: auto;
  font-size:medium;
 }
@@ -196,7 +200,7 @@ font-size:small;
 }
 
 #factcontain{
- width: 500%;
+ width: 40%;
  height: auto;
  font-size:small;
 }
@@ -222,7 +226,7 @@ h2{
 }
 
 h3{
-    font-size: larger;
+    font-size: medium;
 }
 
 #maincontain{
@@ -231,7 +235,7 @@ h3{
 }
 
 #factcontain{
- width: 1000%;
+ width: 35%;
  height: auto;
  font-size:smaller;
 }
