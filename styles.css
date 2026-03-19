@@ -27,6 +27,7 @@ h1{
     font-size: 60px;
     flex: row;
     background-color: #ffebf6;
+    background-image: linear-gradient(#ffebf6,#ffd6ef);
     width:90%;
     height: auto;
     margin: 0 auto;
@@ -44,6 +45,7 @@ h1{
     justify-content: center;
     flex: row;
     background-color: hsl(199, 100%, 84%);
+    background-image: linear-gradient(hsl(200, 100%, 89%), hsl(199, 100%, 79%));
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -91,7 +93,7 @@ h1{
     height:auto ;
     overflow:hidden;
     background-color:hsl(332, 100%, 89%);
-    background-image: linear-gradient(hsl(199, 100%, 84%),hsl(200, 100%, 96%) );
+    background-image: linear-gradient(hsl(199, 100%, 84%),hsl(199, 100%, 95%) );
     padding:10px;
     object-fit:cover;
     line-height: 1.5;
@@ -114,7 +116,7 @@ a:link{
 
 }
 a:visited{
-    color: #a8e3ff;
+    color: #71d2ff;
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -146,8 +148,7 @@ h2{
 
 
 #maincontain{
-width: 94%;
- height: auto;
+
 font-size:medium;
 background-color:violet;
 }
@@ -186,9 +187,7 @@ h3{
 
 #maincontain{
 display:flex;
-width: 94%;
-height: auto;
-background-color:rgb(255, 183, 59);
+
 font-size:small;
 }
 
@@ -206,14 +205,14 @@ font-size:small;
 @media (max-width: 768px){
 h1{
     display: flex;
-    width:90%;
+    width:85%;
     height:auto;
     font-size: 20px;
 }
 
 h2{
     display: flex;
-    width:90%;
+    width:85%;
     height:auto;
     font-size: small;
 }
@@ -223,10 +222,8 @@ h3{
 }
 
 #maincontain{
-width: 97%;
- height: auto;
  font-size: smaller;
-background-color:rgb(5, 255, 222);
+
 }
 
 #factcontain{
